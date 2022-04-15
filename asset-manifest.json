@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fortnite/static/css/main.cae2fb14.css",
+    "main.js": "/fortnite/static/js/main.11edf1ac.js",
+    "static/media/bg.jpg": "/fortnite/static/media/bg.774313049bca5a17e282.jpg",
+    "static/media/photo.jpg": "/fortnite/static/media/photo.2268c608acb1f0029ce7.jpg",
+    "static/media/bg_login.jpg": "/fortnite/static/media/bg_login.d0798454357c9ed88184.jpg",
+    "static/media/kd.svg": "/fortnite/static/media/kd.7765144c21dc7daa792cf72c52510129.svg",
+    "static/media/death.svg": "/fortnite/static/media/death.802d087eada8e0d2331c7bc5e926494c.svg",
+    "static/media/kill.svg": "/fortnite/static/media/kill.6dbde6936d0ff40df58d6cb49ab8af26.svg",
+    "index.html": "/fortnite/index.html",
+    "static/media/logout.svg": "/fortnite/static/media/logout.2dd171add151170edc9c1c19e03be35d.svg",
+    "main.cae2fb14.css.map": "/fortnite/static/css/main.cae2fb14.css.map",
+    "main.11edf1ac.js.map": "/fortnite/static/js/main.11edf1ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae2fb14.css",
+    "static/js/main.11edf1ac.js"
+  ]
+}
