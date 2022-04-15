@@ -1,0 +1,72 @@
+.header {
+    position: sticky;
+    height: 60px;
+    background: rgb(255, 218, 11);
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*backdrop-filter: blur(1px);*/
+    background-blend-mode: hard-light;
+    display: flex;
+    align-items: center;
+
+}
+
+.header_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: .1px solid red;*/
+    height: 100%;
+}
+
+.ul {
+    display: flex;
+    /*border: .1px solid;*/
+    width: 40%;
+    justify-content: space-between;
+    position: relative;
+    height: inherit;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.ul a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(38, 34, 34);
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+    /*transition: .6s all;*/
+    /*border: .1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-width 0.6s ease-out;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.ul a:hover {
+    /*border-bottom: 25px solid rgba(51, 184, 232, 0.99);*/
+    border-bottom: 20px solid rgba(37, 174, 222, 0.99);
+    /*outline: 25px solid rgba(37, 174, 222, 0.99);*/
+}
+
+.active {
+    border-bottom: 20px solid rgba(37, 174, 222, 0.99);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user div {
+    margin-left: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,222 @@
+.statistic {
+    margin-top: 60px;
+    display: flex;
+}
+
+.statistic_item {
+    background: rgba(7, 6, 6, 0.76);
+    min-height: 70vh;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+
+.statistic_item_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile img {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.profile_text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile_text p:nth-child(2) {
+    margin: 6px 0;
+}
+
+.profile_text p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.profile_text span {
+    color: #cecece;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.settings {
+    width: 70%;
+}
+
+.settings h2 {
+    color: #fff;
+    text-align: left;
+}
+
+.settings_settings {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.novelty_select_wrap {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.novelty_select_wrap p {
+    color: rgb(229, 243, 248);
+    font-size: 21px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.novelty_select select {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-width: 113px;*/
+    width: fit-content;
+    border: 2px solid rgb(255, 218, 11);
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 38px;
+    color: rgb(255, 218, 11);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 17px;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    padding: 0 25px 0 10px;
+}
+
+.novelty_select select option {
+    color: #000;
+}
+
+.novelty_select {
+    position: relative;
+}
+
+.settings button {
+    font-size: 20px;
+    margin-top: 23px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    background: rgb(255, 218, 11);
+    outline: none;
+    /*border: none;*/
+    /*transition: .3s all;*/
+    backdrop-filter: blur(10px);
+    transform: skewX(-10deg);
+    height: 50px;
+    width: 200px;
+    border-radius: 20px 5px 20px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-weight: 300;*/
+    text-shadow: 0 0 20px #fff;
+    /*text-transform: uppercase;*/
+    animation: breath2 2s .5s infinite alternate;
+    transition: all .2s ease;
+}
+
+.settings button:hover {
+    background: rgb(224, 190, 9);
+}
+
+.shower {
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shower h1 {
+    color: #fff;
+    margin-top: 140px;
+}
+
+.table {
+    width: 75%;
+}
+
+.kd, .matches, .top {
+    display: flex;
+    color: #fff;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.kd div, .matches div, .top div {
+    width: 700px;
+}
+
+.kd div h3, .matches div h3, .top div h3 {
+    font-size: 26px;
+    letter-spacing: .1rem;
+    color: rgb(224, 190, 9);
+}
+
+.kd div p, .matches div p, .top div p {
+    font-size: 23px;
+    letter-spacing: .1rem;
+    margin-top: 5px;
+}
+
+.btn {
+    font-size: 20px;
+    margin-top: 23px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    background: rgb(255, 218, 11);
+    outline: none;
+    /*border: none;*/
+    /*transition: .3s all;*/
+    color: #000;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transform: skewX(-10deg);
+    height: 45px;
+    width: 250px;
+    border-radius: 20px 5px 20px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-weight: 300;*/
+    text-shadow: 0 0 20px #fff;
+    /*text-transform: uppercase;*/
+    animation: breath2 2s .5s infinite alternate;
+    transition: all .2s ease;
+}
+
+.btn:hover {
+    background: rgb(224, 190, 9);
+}
